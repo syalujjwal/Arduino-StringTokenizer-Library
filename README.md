@@ -7,8 +7,8 @@ Basic description:
 Params : string to tokenize; delimiter string
 
 Functions : 
-  [boolean] hasNext() - returns true if more tokens are available from input string.
-  [String] nextToken() - pops the next token and returns it. If no more tokens are avaiable, returns an empty string ("").
+  (boolean) hasNext() - returns true if more tokens are available from input string.
+  (String) nextToken() - pops the next token and returns it. If no more tokens are avaiable, returns an empty string ("").
   
 Declaration : StringTokenizer tokens( "input string", "delimiter string");
 
