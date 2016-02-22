@@ -1,0 +1,3 @@
+StringTokenizer	KEYWORD1
+hasNext	KEYWORD2
+nextToken	KEYWORD2
