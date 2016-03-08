@@ -39,7 +39,7 @@ String StringTokenizer::nextToken()
 	  return result;
 	}else{
 		result = _str.substring(ptr, delIndex);
-		ptr = delIndex + 1;
+		ptr = delIndex + _del.length();
 		return result;
 	}
 }
